@@ -15,7 +15,7 @@ a = tf.constant(15, dtype=tf.float32)
 tf.cast(a, tf.int32)
 tf.cast(a, tf.bfloat16)
 
-# logarithmic opoeration
+# logarithmic operation
 c = tf.log(a)
 
 # print and validate the resutl

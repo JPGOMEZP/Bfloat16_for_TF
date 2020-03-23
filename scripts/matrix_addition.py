@@ -22,7 +22,7 @@ b = tf.constant([[1, 2, 3], [4, 5, 6]], dtype=tf.float32)
 tf.cast(b, tf.int32)
 tf.cast(b, tf.bfloat16)
 
-# matrix opoeration
+# matrix operation
 c = tf.add(a, b)
 
 # print and validate the resutl

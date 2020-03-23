@@ -22,7 +22,7 @@ b = tf.constant([[11, 12, 13], [14, 15, 16], [17, 18, 19]], dtype=tf.float32)
 tf.cast(b, tf.int32)
 tf.cast(b, tf.bfloat16)
 
-# matrix opoeration
+# matrix operation
 c = tf.tensordot(b, a, 1)
 
 # print and validate the resutl

@@ -22,7 +22,7 @@ b = tf.constant([[7, 8, 9], [10, 11, 12]], dtype=tf.float32)
 tf.cast(b, tf.int32)
 tf.cast(b, tf.bfloat16)
 
-# matrix opoeration
+# matrix operation
 c = tf.divide(b, a)
 
 # print and validate the resutl
